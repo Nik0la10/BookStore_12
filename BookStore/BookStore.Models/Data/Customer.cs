@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace BookStore.Models.Data
 {
-    internal class Customer
+    public class Customer : Person
     {
+        public string PhoneNumber { get; set; }
     }
 }

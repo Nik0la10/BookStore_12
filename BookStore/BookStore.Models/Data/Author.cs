@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace BookStore.Models.Data
 {
-    internal class Author
+    public class Author : Person
     {
+        public string Bio { get; set; }
     }
 }

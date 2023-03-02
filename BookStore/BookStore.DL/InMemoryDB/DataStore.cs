@@ -9,6 +9,21 @@ namespace BookStore.DL.InMemoryDB
 {
     public class DataStore
     {
-        List<Author>
+        public static List<Author> Authors
+            = new List<Author>()
+            {
+                new Author()
+                {
+                    Id = 1,
+                    Name= "Gosho",
+                    Bio= "Goso bio"
+                },
+                new Author()
+                {
+                    Id = 2,
+                    Name= "Ginka",
+                    Bio= "Ginka bio"
+                }
+            };
     }
 }
